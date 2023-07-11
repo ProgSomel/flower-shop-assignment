@@ -105,6 +105,9 @@
     font-size: 13px;
 }
 /*! Instagram Section Styles  */
+.instagram-container {
+    margin-bottom: 100px;
+}
 .instagram-des {
     text-align: center;
     margin-top: 90px;
@@ -121,4 +124,23 @@
 }
 .insta-p {
     font-size: 13px;
+}
+/*! Latest Deals Styles  */
+.latest-deals-container {
+    text-align: center;
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 89%;
+    margin: auto;
+    padding-top: 100px;
+}
+input {
+    width: 700px;
+    height: 18px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
 }
