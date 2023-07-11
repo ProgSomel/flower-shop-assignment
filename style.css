@@ -156,14 +156,14 @@ input {
     font-size: 48px;
     font-weight: 800;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .footer-p {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .footer-span {
     color: #E55473;
@@ -173,5 +173,31 @@ input {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+/*! Unique Section Styles  */
+.fact-container {
+   text-align: center;
+   margin-top: 100px;
+}
+.fact-cards-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+.fact-card {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 8px 6px grey;
+    padding: 50px;
+    margin-top: 40px;
+}
+.fact-img {
+    width: 200px;
+    height: 100px;
+}
+.fact-text {
+    margin-top: 20px;
 }
