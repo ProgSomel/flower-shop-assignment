@@ -134,6 +134,7 @@
     width: 89%;
     margin: auto;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 input {
     width: 700px;
@@ -143,4 +144,34 @@ input {
     border: none;
     padding: 10px;
     margin-top: 10px;
+}
+/*! Footer Styles  */
+.footer {
+    background: #111010;
+    margin-top: 100px;
+    height: 449px;
+}
+.footer-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+.footer-p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.footer-span {
+    color: #E55473;
+}
+.footer-p2 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
 }
